@@ -34,7 +34,8 @@
 </head>
 <body>
     <header>
-        <h2 class="logo">Logo</h2>
+        <img src="logo.png" width="70" height="70" alt="">
+        <h2 class="logo">Companheiros de Patas</h2>
         <nav class="navigation">
             <a href="institucional.php">Institucional</a>
             <a href="#">Cães e Gatos</a>

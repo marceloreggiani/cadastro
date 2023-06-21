@@ -47,9 +47,10 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <!--<nav class="navbar navbar-expand-lg navbar-dark bg-primary">-->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(63, 50, 42, 0.9);">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">SISTEMA - TRABALHO FINAL</a>
+            <a class="navbar-brand" href="#">SISTEMA - TRABALHO FINAL:  HTML | CSS | JS | PHP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

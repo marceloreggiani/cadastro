@@ -101,7 +101,7 @@
         .inputUser:valid ~ .labelInput{
             top: -20px;
             font-size: 12px;
-            color: dodgerblue;
+            color: rgb(94, 53, 9);
         }
         #data_nascimento{
             border: none;
@@ -134,22 +134,22 @@
                 <br>
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" value=<?php echo $nome;?> required>
-                    <label for="nome" class="labelInput">Nome completo</label>
+                    <label for="nome" class="labelInput"><b>Nome completo</b></label>
                 </div>
                 <br><br>
                 <div class="inputBox">
                     <input type="text" name="senha" id="senha" class="inputUser" value=<?php echo $senha;?> required>
-                    <label for="senha" class="labelInput">Senha</label>
+                    <label for="senha" class="labelInput"><b>Senha</b></label>
                 </div>
                 <br><br>
                 <div class="inputBox">
                     <input type="text" name="email" id="email" class="inputUser" value=<?php echo $email;?> required>
-                    <label for="email" class="labelInput">Email</label>
+                    <label for="email" class="labelInput"><b>Email</b></label>
                 </div>
                 <br><br>
                 <div class="inputBox">
                     <input type="tel" name="telefone" id="telefone" class="inputUser" value=<?php echo $telefone;?> required>
-                    <label for="telefone" class="labelInput">Telefone</label>
+                    <label for="telefone" class="labelInput"><b>Telefone</b></label>
                 </div>
                 <p>Sexo:</p>
                 <input type="radio" id="feminino" name="genero" value="feminino" <?php echo ($sexo == 'feminino') ? 'checked' : '';?> required>
@@ -166,17 +166,17 @@
                 <br><br><br>
                 <div class="inputBox">
                     <input type="text" name="cidade" id="cidade" class="inputUser" value=<?php echo $cidade;?> required>
-                    <label for="cidade" class="labelInput">Cidade</label>
+                    <label for="cidade" class="labelInput"><b>Cidade</b></label>
                 </div>
                 <br><br>
                 <div class="inputBox">
                     <input type="text" name="estado" id="estado" class="inputUser" value=<?php echo $estado;?> required>
-                    <label for="estado" class="labelInput">Estado</label>
+                    <label for="estado" class="labelInput"><b>Estado</b></label>
                 </div>
                 <br><br>
                 <div class="inputBox">
                     <input type="text" name="endereco" id="endereco" class="inputUser" value=<?php echo $endereco;?> required>
-                    <label for="endereco" class="labelInput">Endereço</label>
+                    <label for="endereco" class="labelInput"><b>Endereço</b></label>
                 </div>
                 <br><br>
 				<input type="hidden" name="id" value=<?php echo $id;?>>
