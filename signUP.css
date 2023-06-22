@@ -121,6 +121,7 @@ header {
 }
 
 .wrapper.active .form-box.login {
+    background: transparent;
     transition: none;
     transform: translateX(-400px);
 }
